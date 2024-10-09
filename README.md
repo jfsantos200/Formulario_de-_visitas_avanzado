@@ -37,4 +37,5 @@ Próximos Pasos:
 1. Implementar la funcionalidad completa del sistema de login con autenticación segura.
 2. Integrar una base de datos real para el almacenamiento de usuarios, visitas y cotizaciones.
 3. Mejorar la seguridad de la aplicación mediante encriptación de contraseñas y medidas contra ataques comunes.
+   
 4.Desarrollar funcionalidades adicionales según las necesidades del cliente.
