@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registro de Visita - A4 Soluciones Corporativas</title>
+    <style>
+        /* Estilos comunes */
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 20px;
+        }
+
+        nav {
+            background-color: #572;
+            padding: 10px;
+        }
+
+        .nav-container {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+
+        .logo img {
+            max-width: 150px;
+            height: auto;
+        }
+
+        .menu a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 15px;
+            padding: 10px 20px;
+            display: inline-block;
+            border-radius: 5px;
+            transition: background-color 0.3s;
+        }
+
+        .menu a:hover,
+        .menu a.active {
+            background-color: #555;
+        }
+
+        header {
+            background-color: #fff;
+            color: #333;
+            padding: 20px 0;
+            text-align: center;
+            margin-top: 10px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        section {
+            background-color: #fff;
+            padding: 20px;
+            margin: 20px 0;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        h2 {
+            color: #333;
+            margin-bottom: 15px;
+        }
+
+        form {
+            display: flex;
+            flex-direction: column;
+        }
+
+        form input, form textarea, form select {
+            padding: 10px;
+            margin-bottom: 15px;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+        }
+
+        form button {
+            padding: 10px;
+            background-color: #333;
+            color: #fff;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+
+        form button:hover {
+            background-color: #555;
+        }
+    </style>
+</head>
+<body>
+    <!-- Menú de navegación superior -->
+    <nav>
+        <div class="nav-container">
+            <div class="logo">
+                <img src="C:\Users\jsantos\Desktop\Proyecto formulario\a4.png" alt="Logo A4 Soluciones Corporativas">
+            </div>
+            <div class="menu">
+                <a href="login.html">Login</a>
+                <a href="formulario_visita.html" class="active">Registro de Visita</a>
+                <a href="cotizaciones.html">Cotizaciones</a>
+                <a href="contacto.html">Contacto</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Encabezado -->
+    <header>
+        <h1>Registro de Visita a Clientes</h1>
+    </header>
+
+    <!-- Sección del formulario -->
+    <section>
+        <h2>Detalles de la Visita</h2>
+        <form>
+            <label for="vendedor">Vendedor:</label>
+            <input type="text" id="vendedor" name="vendedor" placeholder="Nombre del Vendedor" required>
+
+            <label for="cliente">Cliente:</label>
+            <input type="text" id="cliente" name="cliente" placeholder="Nombre del Cliente" required>
+
+            <label for="fecha">Fecha de Visita:</label>
+            <input type="date" id="fecha" name="fecha" required>
+
+            <label for="hora">Hora de Visita:</label>
+            <input type="time" id="hora" name="hora" required>
+
+            <label for="observaciones">Observaciones:</label>
+            <textarea id="observaciones" name="observaciones" rows="4" placeholder="Detalles de la visita"></textarea>
+
+            <button type="submit">Registrar Visita</button>
+        </form>
+    </section>
+</body>
+</html>
