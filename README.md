@@ -1,9 +1,9 @@
-A4 Soluciones Corporativas - Resumen del Proyecto - Formulario De Contactos/Visita a Clientes.
+A4 Soluciones - Resumen del Proyecto - Formulario De Contactos/Visita a Clientes.
 Fecha: Abril 2024
 
 Descripción del Proyecto:
 
-En este proyecto, se ha desarrollado una interfaz gráfica avanzada para A4 Soluciones Corporativas destinada a facilitar la gestión de visitas de vendedores a clientes, así como el registro de levantamientos y requisiciones de cotizaciones. El sistema incluye las siguientes páginas principales:
+En este proyecto, se ha desarrollado una interfaz gráfica avanzada para A4 Soluciones  destinada a facilitar la gestión de visitas de vendedores a clientes, así como el registro de levantamientos y requisiciones de cotizaciones. El sistema incluye las siguientes páginas principales:
 
 1.Página de Login (Inicio de Sesión):
 
