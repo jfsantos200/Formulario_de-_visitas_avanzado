@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registro de Visita - A4 Soluciones Corporativas</title>
+    <style>
+        /* Estilos comunes */
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 20px;
+        }
+
+        nav {
+            background-color: #572;
+            padding: 10px;
+        }
+
+        .nav-container {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+
+        .logo img {
+            max-width: 150px;
+            height: auto;
+        }
+
+        .menu a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 15px;
+            padding: 10px 20px;
+            display: inline-block;
+            border-radius: 5px;
+            transition: background-color 0.3s;
+        }
+
+        .menu a:hover,
+        .menu a.active {
+            background-color: #555;
+        }
+
+        header {
+            background-color: #fff;
+            color: #333;
+            padding: 20px 0;
+            text-align: center;
+            margin-top: 10px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        section {
+            background-color: #fff;
+            padding: 20px;
+            margin: 20px 0;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        h2 {
+            color: #333;
+            margin-bottom: 15px;
+        }
+
+        form {
+            display: flex;
+            flex-direction: column;
+        }
+
+        form input, form textarea, form select {
+            padding: 10px;
+            margin-bottom: 15px;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+        }
+
+        form button {
+            padding: 10px;
+            background-color: #572;
+            color: #fff;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+
+        form button:hover {
+            background-color: #555;
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <div class="nav-container">
+            <div class="logo">
+                <img src="a4.png" alt="A4 Soluciones Corporativas">
+            </div>
+            <div class="menu">
+                <a href="index.html">Inicio</a>
+                <a href="contacto.html">Contacto</a>
+                <a href="formulario.html" class="active">Formulario</a>
+            </div>
+        </div>
+    </nav>
+
+    <header>
+        <h1>Registro de Visita</h1>
+    </header>
+
+    <section>
+        <h2>Complete el formulario para registrar su visita</h2>
+        <form id="visitForm">
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" name="nombre" required>
+
+            <label for="apellido">Apellido:</label>
+            <input type="text" id="apellido" name="apellido" required>
+
+            <label for="fecha">Fecha de Visita:</label>
+            <input type="date" id="fecha" name="fecha" required>
+
+            <label for="motivo">Motivo de la Visita:</label>
+            <textarea id="motivo" name="motivo" required></textarea>
+
+            <button type="submit">Enviar</button>
+        </form>
+    </section>
+
+   <script>
+        // Verificar si el usuario ha iniciado sesión
+        //document.addEventListener("DOMContentLoaded", function () {
+         //   const userLoggedIn = sessionStorage.getItem("userLoggedIn");
+
+           // if (!userLoggedIn) {
+                //alert("Debes iniciar sesión para acceder a esta página.");
+               // window.location.href = "login.html"; // Redirigir al formulario de inicio de sesión
+            }
+        });
+    </script>
+</body>
+</html>
