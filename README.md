@@ -39,3 +39,8 @@ Próximos Pasos:
 3. Mejorar la seguridad de la aplicación mediante encriptación de contraseñas y medidas contra ataques comunes.
    
 4.Desarrollar funcionalidades adicionales según las necesidades del cliente.
+
+CREDENCIALES DE PRUEBA....
+
+USUARIO:user1
+PASSWORD: 1234
